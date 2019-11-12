@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1D55BF1AA51A85001E3E6D /* GPXFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D55BE1AA51A85001E3E6D /* GPXFile.m */; };
+		3D1D55C21AA8A022001E3E6D /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D55C11AA8A022001E3E6D /* ProgressView.m */; };
+		3D1D55C51AA97DA2001E3E6D /* ZoomLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D55C41AA97DA2001E3E6D /* ZoomLevelView.m */; };
+		3D358AFD1AE7B5FA00BA682F /* MountainSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D358AFC1AE7B5FA00BA682F /* MountainSearchViewController.m */; };
+		3D358B001AE7D91900BA682F /* AreaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D358AFF1AE7D91900BA682F /* AreaTableViewController.m */; };
+		3D358B031AEA6C9B00BA682F /* MountSearchMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D358B021AEA6C9B00BA682F /* MountSearchMapViewController.m */; };
+		3D358B061AEE552C00BA682F /* MountSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D358B051AEE552C00BA682F /* MountSearchTableViewController.m */; };
+		3D38D27419FA73E300A87250 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D38D27319FA73E300A87250 /* WebKit.framework */; };
+		3D38D27619FA7D1500A87250 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D38D27519FA7D1500A87250 /* CoreLocation.framework */; };
+		3D38D27919FAA61300A87250 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D38D27819FAA61300A87250 /* CustomAnnotation.m */; };
+		3D3C871519F3452800CFFEC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C871419F3452800CFFEC0 /* main.m */; };
+		3D3C871819F3452800CFFEC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C871719F3452800CFFEC0 /* AppDelegate.m */; };
+		3D3C871B19F3452800CFFEC0 /* YamarekoMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C871919F3452800CFFEC0 /* YamarekoMap.xcdatamodeld */; };
+		3D3C872119F3452800CFFEC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3C871F19F3452800CFFEC0 /* Main.storyboard */; };
+		3D3C872319F3452800CFFEC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3C872219F3452800CFFEC0 /* Images.xcassets */; };
+		3D3C872619F3452800CFFEC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3C872419F3452800CFFEC0 /* LaunchScreen.xib */; };
+		3D3C874019F35A1700CFFEC0 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C873F19F35A1700CFFEC0 /* FileViewController.m */; };
+		3D3C874319F3638D00CFFEC0 /* FileDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C874219F3638D00CFFEC0 /* FileDetailViewController.m */; };
+		3D3C874919F3E1FC00CFFEC0 /* TileOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C874619F3E1FC00CFFEC0 /* TileOverlay.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3D3C874A19F3E1FC00CFFEC0 /* TileOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C874819F3E1FC00CFFEC0 /* TileOverlayView.m */; };
+		3D3C874C19F3F59F00CFFEC0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3C874B19F3F59F00CFFEC0 /* MapKit.framework */; };
+		3D5140181AA2F60F008AF1BD /* HellpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5140171AA2F60F008AF1BD /* HellpViewController.m */; };
+		3D6774C71ACACFFD00090494 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6774C61ACACFFD00090494 /* StoreKit.framework */; };
+		3D6A0F371ACF843B00EAE5A3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A0F361ACF843B00EAE5A3 /* MapViewController.m */; };
+		3D6A0F3B1AD4138E00EAE5A3 /* 100meizan.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3D6A0F3A1AD4138E00EAE5A3 /* 100meizan.csv */; };
+		3D6A0F3E1AD56A7300EAE5A3 /* MapViewSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A0F3D1AD56A7300EAE5A3 /* MapViewSlidingViewController.m */; };
+		3D6A0F411AD69F2700EAE5A3 /* MapMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A0F401AD69F2700EAE5A3 /* MapMenuTableViewController.m */; };
+		3D6A0F431AD6BF1A00EAE5A3 /* 200meizan.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3D6A0F421AD6BF1A00EAE5A3 /* 200meizan.csv */; };
+		3D6A0F451AD6BF3F00EAE5A3 /* 300meizan.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3D6A0F441AD6BF3F00EAE5A3 /* 300meizan.csv */; };
+		3DBC61361A204FDF002F5FA0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBC61351A204FDF002F5FA0 /* libz.dylib */; };
+		3DBD3C6F1A9F54F700C338E0 /* YmrcWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD3C6E1A9F54F700C338E0 /* YmrcWebViewController.m */; };
+		3DC1A9D61A98705500F8AF4D /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1A9D51A98705500F8AF4D /* SettingTableViewController.m */; };
+		3DCAD6E019FFC618003015F7 /* GradientPolylineOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAD6DD19FFC618003015F7 /* GradientPolylineOverlay.m */; };
+		3DCAD6E119FFC618003015F7 /* GradientPolylineRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAD6DF19FFC618003015F7 /* GradientPolylineRenderer.m */; };
+		3DCAD7111A027870003015F7 /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAD7051A027870003015F7 /* ECPercentDrivenInteractiveTransition.m */; };
+		3DCAD7121A027870003015F7 /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAD7071A027870003015F7 /* ECSlidingAnimationController.m */; };
+		3DCAD7131A027870003015F7 /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAD70A1A027870003015F7 /* ECSlidingInteractiveTransition.m */; };
+		3DCAD7141A027870003015F7 /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAD70C1A027870003015F7 /* ECSlidingSegue.m */; };
+		3DCAD7151A027870003015F7 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAD70E1A027870003015F7 /* ECSlidingViewController.m */; };
+		3DCAD7161A027870003015F7 /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAD7101A027870003015F7 /* UIViewController+ECSlidingViewController.m */; };
+		3DCAD7191A027A7C003015F7 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAD7181A027A7C003015F7 /* MenuViewController.m */; };
+		3DCAD71C1A027D57003015F7 /* SlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAD71B1A027D57003015F7 /* SlidingViewController.m */; };
+		3DD31A671A07BFFB0088C437 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD31A661A07BFFB0088C437 /* CustomTableViewCell.m */; };
+		3DD31A891A0F114A0088C437 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD31A881A0F114A0088C437 /* MKMapView+ZoomLevel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D3C872C19F3452800CFFEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3C870719F3452800CFFEC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3C870E19F3452800CFFEC0;
+			remoteInfo = YamarekoMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D1D55BD1AA51A85001E3E6D /* GPXFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXFile.h; sourceTree = "<group>"; };
+		3D1D55BE1AA51A85001E3E6D /* GPXFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXFile.m; sourceTree = "<group>"; };
+		3D1D55C01AA8A022001E3E6D /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		3D1D55C11AA8A022001E3E6D /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		3D1D55C31AA97DA2001E3E6D /* ZoomLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomLevelView.h; sourceTree = "<group>"; };
+		3D1D55C41AA97DA2001E3E6D /* ZoomLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomLevelView.m; sourceTree = "<group>"; };
+		3D358AFB1AE7B5FA00BA682F /* MountainSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountainSearchViewController.h; sourceTree = "<group>"; };
+		3D358AFC1AE7B5FA00BA682F /* MountainSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountainSearchViewController.m; sourceTree = "<group>"; };
+		3D358AFE1AE7D91900BA682F /* AreaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaTableViewController.h; sourceTree = "<group>"; };
+		3D358AFF1AE7D91900BA682F /* AreaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaTableViewController.m; sourceTree = "<group>"; };
+		3D358B011AEA6C9B00BA682F /* MountSearchMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountSearchMapViewController.h; sourceTree = "<group>"; };
+		3D358B021AEA6C9B00BA682F /* MountSearchMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountSearchMapViewController.m; sourceTree = "<group>"; };
+		3D358B041AEE552C00BA682F /* MountSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountSearchTableViewController.h; sourceTree = "<group>"; };
+		3D358B051AEE552C00BA682F /* MountSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountSearchTableViewController.m; sourceTree = "<group>"; };
+		3D38D27319FA73E300A87250 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3D38D27519FA7D1500A87250 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3D38D27719FAA61300A87250 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		3D38D27819FAA61300A87250 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		3D3C870F19F3452800CFFEC0 /* YamarecoMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YamarecoMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3C871319F3452800CFFEC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3C871419F3452800CFFEC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D3C871619F3452800CFFEC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D3C871719F3452800CFFEC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D3C871A19F3452800CFFEC0 /* YamarekoMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YamarekoMap.xcdatamodel; sourceTree = "<group>"; };
+		3D3C872019F3452800CFFEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D3C872219F3452800CFFEC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D3C872519F3452800CFFEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D3C872B19F3452800CFFEC0 /* YamarecoMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YamarecoMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3C873E19F35A1700CFFEC0 /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		3D3C873F19F35A1700CFFEC0 /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
+		3D3C874119F3638D00CFFEC0 /* FileDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDetailViewController.h; sourceTree = "<group>"; };
+		3D3C874219F3638D00CFFEC0 /* FileDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDetailViewController.m; sourceTree = "<group>"; };
+		3D3C874519F3E1FC00CFFEC0 /* TileOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileOverlay.h; sourceTree = "<group>"; };
+		3D3C874619F3E1FC00CFFEC0 /* TileOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileOverlay.m; sourceTree = "<group>"; };
+		3D3C874719F3E1FC00CFFEC0 /* TileOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileOverlayView.h; sourceTree = "<group>"; };
+		3D3C874819F3E1FC00CFFEC0 /* TileOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileOverlayView.m; sourceTree = "<group>"; };
+		3D3C874B19F3F59F00CFFEC0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3D5140161AA2F60F008AF1BD /* HellpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellpViewController.h; sourceTree = "<group>"; };
+		3D5140171AA2F60F008AF1BD /* HellpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellpViewController.m; sourceTree = "<group>"; };
+		3D6774C61ACACFFD00090494 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3D68EA351B04C1B600C6C701 /* YamarekoMap 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "YamarekoMap 2.xcdatamodel"; sourceTree = "<group>"; };
+		3D6A0F351ACF843B00EAE5A3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		3D6A0F361ACF843B00EAE5A3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		3D6A0F3A1AD4138E00EAE5A3 /* 100meizan.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 100meizan.csv; sourceTree = "<group>"; };
+		3D6A0F3C1AD56A7300EAE5A3 /* MapViewSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewSlidingViewController.h; sourceTree = "<group>"; };
+		3D6A0F3D1AD56A7300EAE5A3 /* MapViewSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewSlidingViewController.m; sourceTree = "<group>"; };
+		3D6A0F3F1AD69F2700EAE5A3 /* MapMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapMenuTableViewController.h; sourceTree = "<group>"; };
+		3D6A0F401AD69F2700EAE5A3 /* MapMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapMenuTableViewController.m; sourceTree = "<group>"; };
+		3D6A0F421AD6BF1A00EAE5A3 /* 200meizan.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 200meizan.csv; sourceTree = "<group>"; };
+		3D6A0F441AD6BF3F00EAE5A3 /* 300meizan.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 300meizan.csv; sourceTree = "<group>"; };
+		3DBC61351A204FDF002F5FA0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3DBD3C6D1A9F54F700C338E0 /* YmrcWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YmrcWebViewController.h; sourceTree = "<group>"; };
+		3DBD3C6E1A9F54F700C338E0 /* YmrcWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YmrcWebViewController.m; sourceTree = "<group>"; };
+		3DC1A9D41A98705500F8AF4D /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		3DC1A9D51A98705500F8AF4D /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		3DCAD6DC19FFC618003015F7 /* GradientPolylineOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientPolylineOverlay.h; sourceTree = "<group>"; };
+		3DCAD6DD19FFC618003015F7 /* GradientPolylineOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientPolylineOverlay.m; sourceTree = "<group>"; };
+		3DCAD6DE19FFC618003015F7 /* GradientPolylineRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientPolylineRenderer.h; sourceTree = "<group>"; };
+		3DCAD6DF19FFC618003015F7 /* GradientPolylineRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientPolylineRenderer.m; sourceTree = "<group>"; };
+		3DCAD7041A027870003015F7 /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		3DCAD7051A027870003015F7 /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		3DCAD7061A027870003015F7 /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		3DCAD7071A027870003015F7 /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingAnimationController.m; sourceTree = "<group>"; };
+		3DCAD7081A027870003015F7 /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingConstants.h; sourceTree = "<group>"; };
+		3DCAD7091A027870003015F7 /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		3DCAD70A1A027870003015F7 /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
+		3DCAD70B1A027870003015F7 /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingSegue.h; sourceTree = "<group>"; };
+		3DCAD70C1A027870003015F7 /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingSegue.m; sourceTree = "<group>"; };
+		3DCAD70D1A027870003015F7 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		3DCAD70E1A027870003015F7 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		3DCAD70F1A027870003015F7 /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
+		3DCAD7101A027870003015F7 /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
+		3DCAD7171A027A7B003015F7 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		3DCAD7181A027A7C003015F7 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		3DCAD71A1A027D57003015F7 /* SlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingViewController.h; sourceTree = "<group>"; };
+		3DCAD71B1A027D57003015F7 /* SlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingViewController.m; sourceTree = "<group>"; };
+		3DD31A651A07BFFB0088C437 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		3DD31A661A07BFFB0088C437 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		3DD31A871A0F114A0088C437 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		3DD31A881A0F114A0088C437 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3C870C19F3452800CFFEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6774C71ACACFFD00090494 /* StoreKit.framework in Frameworks */,
+				3DBC61361A204FDF002F5FA0 /* libz.dylib in Frameworks */,
+				3D38D27619FA7D1500A87250 /* CoreLocation.framework in Frameworks */,
+				3D38D27419FA73E300A87250 /* WebKit.framework in Frameworks */,
+				3D3C874C19F3F59F00CFFEC0 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3C872819F3452800CFFEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3C870619F3452800CFFEC0 = {
+			isa = PBXGroup;
+			children = (
+				3D6774C61ACACFFD00090494 /* StoreKit.framework */,
+				3DBC61351A204FDF002F5FA0 /* libz.dylib */,
+				3D38D27519FA7D1500A87250 /* CoreLocation.framework */,
+				3D38D27319FA73E300A87250 /* WebKit.framework */,
+				3D3C874B19F3F59F00CFFEC0 /* MapKit.framework */,
+				3D3C871119F3452800CFFEC0 /* YamarekoMap */,
+				3D3C871019F3452800CFFEC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D3C871019F3452800CFFEC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D3C870F19F3452800CFFEC0 /* YamarecoMap.app */,
+				3D3C872B19F3452800CFFEC0 /* YamarecoMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D3C871119F3452800CFFEC0 /* YamarekoMap */ = {
+			isa = PBXGroup;
+			children = (
+				3D3C871619F3452800CFFEC0 /* AppDelegate.h */,
+				3D3C871719F3452800CFFEC0 /* AppDelegate.m */,
+				3D3C873E19F35A1700CFFEC0 /* FileViewController.h */,
+				3D3C873F19F35A1700CFFEC0 /* FileViewController.m */,
+				3D3C874119F3638D00CFFEC0 /* FileDetailViewController.h */,
+				3D3C874219F3638D00CFFEC0 /* FileDetailViewController.m */,
+				3D38D27719FAA61300A87250 /* CustomAnnotation.h */,
+				3D38D27819FAA61300A87250 /* CustomAnnotation.m */,
+				3DCAD7171A027A7B003015F7 /* MenuViewController.h */,
+				3DCAD7181A027A7C003015F7 /* MenuViewController.m */,
+				3DCAD71A1A027D57003015F7 /* SlidingViewController.h */,
+				3DCAD71B1A027D57003015F7 /* SlidingViewController.m */,
+				3DD31A651A07BFFB0088C437 /* CustomTableViewCell.h */,
+				3DD31A661A07BFFB0088C437 /* CustomTableViewCell.m */,
+				3DD31A871A0F114A0088C437 /* MKMapView+ZoomLevel.h */,
+				3DD31A881A0F114A0088C437 /* MKMapView+ZoomLevel.m */,
+				3D3C871F19F3452800CFFEC0 /* Main.storyboard */,
+				3D3C872219F3452800CFFEC0 /* Images.xcassets */,
+				3D3C872419F3452800CFFEC0 /* LaunchScreen.xib */,
+				3D3C871919F3452800CFFEC0 /* YamarekoMap.xcdatamodeld */,
+				3DCAD7031A027870003015F7 /* ECSlidingViewController */,
+				3DCAD6DB19FFC618003015F7 /* GradientPolyline */,
+				3D3C874419F3E1FC00CFFEC0 /* TileOverlayGoogleMaps */,
+				3D3C871219F3452800CFFEC0 /* Supporting Files */,
+				3DC1A9D41A98705500F8AF4D /* SettingTableViewController.h */,
+				3DC1A9D51A98705500F8AF4D /* SettingTableViewController.m */,
+				3DBD3C6D1A9F54F700C338E0 /* YmrcWebViewController.h */,
+				3DBD3C6E1A9F54F700C338E0 /* YmrcWebViewController.m */,
+				3D5140161AA2F60F008AF1BD /* HellpViewController.h */,
+				3D5140171AA2F60F008AF1BD /* HellpViewController.m */,
+				3D1D55BD1AA51A85001E3E6D /* GPXFile.h */,
+				3D1D55BE1AA51A85001E3E6D /* GPXFile.m */,
+				3D1D55C01AA8A022001E3E6D /* ProgressView.h */,
+				3D1D55C11AA8A022001E3E6D /* ProgressView.m */,
+				3D1D55C31AA97DA2001E3E6D /* ZoomLevelView.h */,
+				3D1D55C41AA97DA2001E3E6D /* ZoomLevelView.m */,
+				3D6A0F351ACF843B00EAE5A3 /* MapViewController.h */,
+				3D6A0F361ACF843B00EAE5A3 /* MapViewController.m */,
+				3D6A0F3C1AD56A7300EAE5A3 /* MapViewSlidingViewController.h */,
+				3D6A0F3D1AD56A7300EAE5A3 /* MapViewSlidingViewController.m */,
+				3D6A0F3F1AD69F2700EAE5A3 /* MapMenuTableViewController.h */,
+				3D6A0F401AD69F2700EAE5A3 /* MapMenuTableViewController.m */,
+				3D358AFB1AE7B5FA00BA682F /* MountainSearchViewController.h */,
+				3D358AFC1AE7B5FA00BA682F /* MountainSearchViewController.m */,
+				3D358AFE1AE7D91900BA682F /* AreaTableViewController.h */,
+				3D358AFF1AE7D91900BA682F /* AreaTableViewController.m */,
+				3D358B011AEA6C9B00BA682F /* MountSearchMapViewController.h */,
+				3D358B021AEA6C9B00BA682F /* MountSearchMapViewController.m */,
+				3D358B041AEE552C00BA682F /* MountSearchTableViewController.h */,
+				3D358B051AEE552C00BA682F /* MountSearchTableViewController.m */,
+			);
+			path = YamarekoMap;
+			sourceTree = "<group>";
+		};
+		3D3C871219F3452800CFFEC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D3C871319F3452800CFFEC0 /* Info.plist */,
+				3D3C871419F3452800CFFEC0 /* main.m */,
+				3D6A0F3A1AD4138E00EAE5A3 /* 100meizan.csv */,
+				3D6A0F421AD6BF1A00EAE5A3 /* 200meizan.csv */,
+				3D6A0F441AD6BF3F00EAE5A3 /* 300meizan.csv */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D3C874419F3E1FC00CFFEC0 /* TileOverlayGoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				3D3C874519F3E1FC00CFFEC0 /* TileOverlay.h */,
+				3D3C874619F3E1FC00CFFEC0 /* TileOverlay.m */,
+				3D3C874719F3E1FC00CFFEC0 /* TileOverlayView.h */,
+				3D3C874819F3E1FC00CFFEC0 /* TileOverlayView.m */,
+			);
+			path = TileOverlayGoogleMaps;
+			sourceTree = SOURCE_ROOT;
+		};
+		3DCAD6DB19FFC618003015F7 /* GradientPolyline */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAD6DC19FFC618003015F7 /* GradientPolylineOverlay.h */,
+				3DCAD6DD19FFC618003015F7 /* GradientPolylineOverlay.m */,
+				3DCAD6DE19FFC618003015F7 /* GradientPolylineRenderer.h */,
+				3DCAD6DF19FFC618003015F7 /* GradientPolylineRenderer.m */,
+			);
+			path = GradientPolyline;
+			sourceTree = SOURCE_ROOT;
+		};
+		3DCAD7031A027870003015F7 /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAD7041A027870003015F7 /* ECPercentDrivenInteractiveTransition.h */,
+				3DCAD7051A027870003015F7 /* ECPercentDrivenInteractiveTransition.m */,
+				3DCAD7061A027870003015F7 /* ECSlidingAnimationController.h */,
+				3DCAD7071A027870003015F7 /* ECSlidingAnimationController.m */,
+				3DCAD7081A027870003015F7 /* ECSlidingConstants.h */,
+				3DCAD7091A027870003015F7 /* ECSlidingInteractiveTransition.h */,
+				3DCAD70A1A027870003015F7 /* ECSlidingInteractiveTransition.m */,
+				3DCAD70B1A027870003015F7 /* ECSlidingSegue.h */,
+				3DCAD70C1A027870003015F7 /* ECSlidingSegue.m */,
+				3DCAD70D1A027870003015F7 /* ECSlidingViewController.h */,
+				3DCAD70E1A027870003015F7 /* ECSlidingViewController.m */,
+				3DCAD70F1A027870003015F7 /* UIViewController+ECSlidingViewController.h */,
+				3DCAD7101A027870003015F7 /* UIViewController+ECSlidingViewController.m */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D3C870E19F3452800CFFEC0 /* YamarecoMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3C873519F3452800CFFEC0 /* Build configuration list for PBXNativeTarget "YamarecoMap" */;
+			buildPhases = (
+				3D3C870B19F3452800CFFEC0 /* Sources */,
+				3D3C870C19F3452800CFFEC0 /* Frameworks */,
+				3D3C870D19F3452800CFFEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YamarecoMap;
+			productName = YamarekoMap;
+			productReference = 3D3C870F19F3452800CFFEC0 /* YamarecoMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D3C872A19F3452800CFFEC0 /* YamarecoMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3C873819F3452800CFFEC0 /* Build configuration list for PBXNativeTarget "YamarecoMapTests" */;
+			buildPhases = (
+				3D3C872719F3452800CFFEC0 /* Sources */,
+				3D3C872819F3452800CFFEC0 /* Frameworks */,
+				3D3C872919F3452800CFFEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3C872D19F3452800CFFEC0 /* PBXTargetDependency */,
+			);
+			name = YamarecoMapTests;
+			productName = YamarekoMapTests;
+			productReference = 3D3C872B19F3452800CFFEC0 /* YamarecoMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D3C870719F3452800CFFEC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = SawakiRyusuke;
+				TargetAttributes = {
+					3D3C870E19F3452800CFFEC0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 7388BT2P8K;
+					};
+					3D3C872A19F3452800CFFEC0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 3D3C870E19F3452800CFFEC0;
+					};
+				};
+			};
+			buildConfigurationList = 3D3C870A19F3452800CFFEC0 /* Build configuration list for PBXProject "YamarecoMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D3C870619F3452800CFFEC0;
+			productRefGroup = 3D3C871019F3452800CFFEC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3C870E19F3452800CFFEC0 /* YamarecoMap */,
+				3D3C872A19F3452800CFFEC0 /* YamarecoMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D3C870D19F3452800CFFEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6A0F3B1AD4138E00EAE5A3 /* 100meizan.csv in Resources */,
+				3D3C872119F3452800CFFEC0 /* Main.storyboard in Resources */,
+				3D6A0F451AD6BF3F00EAE5A3 /* 300meizan.csv in Resources */,
+				3D3C872619F3452800CFFEC0 /* LaunchScreen.xib in Resources */,
+				3D6A0F431AD6BF1A00EAE5A3 /* 200meizan.csv in Resources */,
+				3D3C872319F3452800CFFEC0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3C872919F3452800CFFEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3C870B19F3452800CFFEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6A0F411AD69F2700EAE5A3 /* MapMenuTableViewController.m in Sources */,
+				3D1D55C51AA97DA2001E3E6D /* ZoomLevelView.m in Sources */,
+				3DCAD6E019FFC618003015F7 /* GradientPolylineOverlay.m in Sources */,
+				3DC1A9D61A98705500F8AF4D /* SettingTableViewController.m in Sources */,
+				3D3C871819F3452800CFFEC0 /* AppDelegate.m in Sources */,
+				3D3C871519F3452800CFFEC0 /* main.m in Sources */,
+				3D3C874919F3E1FC00CFFEC0 /* TileOverlay.m in Sources */,
+				3DCAD7191A027A7C003015F7 /* MenuViewController.m in Sources */,
+				3D5140181AA2F60F008AF1BD /* HellpViewController.m in Sources */,
+				3DCAD7111A027870003015F7 /* ECPercentDrivenInteractiveTransition.m in Sources */,
+				3D358AFD1AE7B5FA00BA682F /* MountainSearchViewController.m in Sources */,
+				3DCAD7131A027870003015F7 /* ECSlidingInteractiveTransition.m in Sources */,
+				3DCAD7141A027870003015F7 /* ECSlidingSegue.m in Sources */,
+				3D358B001AE7D91900BA682F /* AreaTableViewController.m in Sources */,
+				3D3C874019F35A1700CFFEC0 /* FileViewController.m in Sources */,
+				3DCAD7151A027870003015F7 /* ECSlidingViewController.m in Sources */,
+				3D3C874319F3638D00CFFEC0 /* FileDetailViewController.m in Sources */,
+				3DCAD7161A027870003015F7 /* UIViewController+ECSlidingViewController.m in Sources */,
+				3D38D27919FAA61300A87250 /* CustomAnnotation.m in Sources */,
+				3D3C871B19F3452800CFFEC0 /* YamarekoMap.xcdatamodeld in Sources */,
+				3DD31A891A0F114A0088C437 /* MKMapView+ZoomLevel.m in Sources */,
+				3D3C874A19F3E1FC00CFFEC0 /* TileOverlayView.m in Sources */,
+				3DCAD7121A027870003015F7 /* ECSlidingAnimationController.m in Sources */,
+				3D6A0F3E1AD56A7300EAE5A3 /* MapViewSlidingViewController.m in Sources */,
+				3D358B061AEE552C00BA682F /* MountSearchTableViewController.m in Sources */,
+				3D358B031AEA6C9B00BA682F /* MountSearchMapViewController.m in Sources */,
+				3DCAD6E119FFC618003015F7 /* GradientPolylineRenderer.m in Sources */,
+				3DCAD71C1A027D57003015F7 /* SlidingViewController.m in Sources */,
+				3D1D55C21AA8A022001E3E6D /* ProgressView.m in Sources */,
+				3D1D55BF1AA51A85001E3E6D /* GPXFile.m in Sources */,
+				3D6A0F371ACF843B00EAE5A3 /* MapViewController.m in Sources */,
+				3DBD3C6F1A9F54F700C338E0 /* YmrcWebViewController.m in Sources */,
+				3DD31A671A07BFFB0088C437 /* CustomTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3C872719F3452800CFFEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D3C872D19F3452800CFFEC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3C870E19F3452800CFFEC0 /* YamarecoMap */;
+			targetProxy = 3D3C872C19F3452800CFFEC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D3C871F19F3452800CFFEC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3C872019F3452800CFFEC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D3C872419F3452800CFFEC0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3C872519F3452800CFFEC0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D3C873319F3452800CFFEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D3C873419F3452800CFFEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D3C873619F3452800CFFEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YamarekoMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = YamarecoMap;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D3C873719F3452800CFFEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YamarekoMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = YamarecoMap;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3D3C873919F3452800CFFEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YamarekoMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = YamarecoMapTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YamarekoMap.app/YamarekoMap";
+			};
+			name = Debug;
+		};
+		3D3C873A19F3452800CFFEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YamarekoMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = YamarecoMapTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YamarekoMap.app/YamarekoMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3C870A19F3452800CFFEC0 /* Build configuration list for PBXProject "YamarecoMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3C873319F3452800CFFEC0 /* Debug */,
+				3D3C873419F3452800CFFEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3C873519F3452800CFFEC0 /* Build configuration list for PBXNativeTarget "YamarecoMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3C873619F3452800CFFEC0 /* Debug */,
+				3D3C873719F3452800CFFEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3C873819F3452800CFFEC0 /* Build configuration list for PBXNativeTarget "YamarecoMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3C873919F3452800CFFEC0 /* Debug */,
+				3D3C873A19F3452800CFFEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D3C871919F3452800CFFEC0 /* YamarekoMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D68EA351B04C1B600C6C701 /* YamarekoMap 2.xcdatamodel */,
+				3D3C871A19F3452800CFFEC0 /* YamarekoMap.xcdatamodel */,
+			);
+			currentVersion = 3D68EA351B04C1B600C6C701 /* YamarekoMap 2.xcdatamodel */;
+			path = YamarekoMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D3C870719F3452800CFFEC0 /* Project object */;
+}

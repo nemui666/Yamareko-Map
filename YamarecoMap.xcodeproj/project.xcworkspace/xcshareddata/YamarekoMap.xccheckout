@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>970453D5-B4FB-4F2A-A0E7-ED36A92A4909</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YamarekoMap</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>43B29FD8D99D8E45BC040AA3EDF79227AA997624</key>
+		<string>/Volumes/Shared/%E9%96%8B%E7%99%BA</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YamarekoMap/YamarekoMap.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>43B29FD8D99D8E45BC040AA3EDF79227AA997624</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>/Volumes/Shared/%E9%96%8B%E7%99%BA</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>43B29FD8D99D8E45BC040AA3EDF79227AA997624</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>43B29FD8D99D8E45BC040AA3EDF79227AA997624</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E9%96%8B%E7%99%BA</string>
+		</dict>
+	</array>
+</dict>
+</plist>
